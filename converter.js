@@ -143,6 +143,7 @@ window.onload = function () {
         return Math.max.apply(null, this);
     };
 
+    /* Parse markdown table using recursive descent method. */
     function parse() {
         grid = document.getElementById("grid");
         var source = document.getElementById("markdown").value.split('\n');
